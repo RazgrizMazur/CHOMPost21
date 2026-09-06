@@ -2425,6 +2425,7 @@
 /area/offworld/orbital/station/beam_emitter)
 "fH" = (
 /obj/machinery/door/airlock/maintenance/engi,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techmaint,
 /area/offworld/orbital/station/rust_backup_power)
 "fI" = (
@@ -10233,6 +10234,7 @@
 	icon_state = "9-10"
 	},
 /obj/machinery/door/airlock/maintenance/int,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techmaint,
 /area/offworld/orbital/station/rust_backup_power)
 "uU" = (
