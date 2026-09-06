@@ -428,6 +428,7 @@
 /turf/simulated/floor/plating,
 /area/ai_sat/fore_airlock)
 "aY" = (
+/obj/item/tool/crowbar,
 /turf/simulated/floor/plating,
 /area/offworld/orbital/exterior/engine_core_port)
 "aZ" = (
@@ -18121,13 +18122,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/ai_sat/access_shaft)
-"JC" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/item/tool/crowbar,
-/turf/simulated/floor/airless,
-/area/offworld/orbital/exterior/engine_core_port)
 "JD" = (
 /obj/structure/cable/cyan{
 	icon_state = "0-8"
@@ -38360,7 +38354,7 @@ cc
 lD
 cc
 cc
-JC
+cc
 cc
 cc
 Qh

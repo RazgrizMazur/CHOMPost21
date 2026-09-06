@@ -1514,8 +1514,8 @@
 /obj/machinery/button/remote/airlock{
 	pixel_y = 27;
 	pixel_x = -5;
-	id_tag = "engine_access_hatch";
-	specialfunctions = 4
+	specialfunctions = 4;
+	id = "engine_access_hatch"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/offworld/orbital/station/rust_control)
@@ -1935,9 +1935,7 @@
 	dir = 9
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/power/hydromagnetic_trap{
-	anchored = 0
-	},
+/obj/machinery/power/hydromagnetic_trap,
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/rust_tool_storage)
 "ex" = (
@@ -2202,9 +2200,7 @@
 /area/offworld/orbital/station/halls/lower/port)
 "fg" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/power/hydromagnetic_trap{
-	anchored = 0
-	},
+/obj/machinery/power/hydromagnetic_trap,
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/rust_tool_storage)
 "fh" = (
@@ -29503,7 +29499,7 @@ IF
 wp
 bt
 pG
-ei
+wo
 ei
 iF
 ZZ
@@ -29665,7 +29661,7 @@ ws
 XE
 pG
 kN
-wo
+ei
 xB
 vc
 er
