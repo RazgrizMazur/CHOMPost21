@@ -2018,27 +2018,6 @@
 	},
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/halls/lower/port)
-"eF" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
-	},
-/obj/structure/cable/green{
-	icon_state = "2-4"
-	},
-/obj/machinery/power/apc{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24;
-	nightshift_setting = 3
-	},
-/obj/structure/cable/green{
-	icon_state = "0-2"
-	},
-/turf/simulated/floor/tiled/milspec,
-/area/offworld/orbital/station/rust_aux_tool_storage)
 "eG" = (
 /obj/machinery/rnd/production/protolathe/department/engineering,
 /obj/structure/disposalpipe/segment{
@@ -11010,6 +10989,27 @@
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/rust_aux_tool_storage)
 "wH" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/structure/cable/green{
+	icon_state = "2-4"
+	},
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "west bump";
+	pixel_x = -24;
+	nightshift_setting = 3
+	},
+/obj/structure/cable/green{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/offworld/orbital/station/rust_aux_tool_storage)
+"wI" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
@@ -26901,7 +26901,7 @@ RS
 RS
 iT
 HX
-eF
+wH
 wE
 wD
 wx
@@ -27225,7 +27225,7 @@ RS
 RS
 iT
 ty
-wH
+wI
 wG
 iT
 wy
