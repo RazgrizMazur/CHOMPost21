@@ -5381,11 +5381,6 @@
 /obj/effect/floor_decal/corner/lightgrey/border,
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/access_shaft/lower)
-"lr" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/obj/effect/floor_decal/industrial/outline/blue,
-/turf/simulated/floor/tiled/milspec,
-/area/offworld/orbital/station/rust_gas_storage)
 "ls" = (
 /obj/machinery/light,
 /obj/effect/floor_decal/borderfloor,
@@ -10901,21 +10896,14 @@
 /turf/simulated/floor/wood/alt,
 /area/maintenance/orbital/lower/aft)
 "wu" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/floor_decal/industrial/outline/blue,
+/turf/simulated/floor/tiled/milspec,
+/area/offworld/orbital/station/rust_gas_storage)
+"wv" = (
 /obj/item/tool/wrench/pipe,
 /turf/simulated/floor/plating,
 /area/offworld/orbital/station/rust_core)
-"wv" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
-/obj/structure/cable/green{
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/plating,
-/area/offworld/orbital/station/rust_aux_tool_storage)
 "ww" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 9
@@ -10929,6 +10917,18 @@
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/beam_emitter)
 "wx" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/structure/cable/green{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/offworld/orbital/station/rust_aux_tool_storage)
+"wy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
@@ -10940,7 +10940,7 @@
 	},
 /turf/simulated/floor/plating,
 /area/offworld/orbital/station/rust_aux_tool_storage)
-"wy" = (
+"wz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
@@ -10952,13 +10952,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/offworld/orbital/station/rust_core)
-"wz" = (
+"wA" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 5
 	},
 /turf/simulated/floor/plating,
 /area/offworld/orbital/station/rust_core)
-"wA" = (
+"wB" = (
 /obj/machinery/light{
 	dir = 1
 	},
@@ -10967,7 +10967,7 @@
 	},
 /turf/simulated/floor/plating,
 /area/offworld/orbital/station/rust_core)
-"wB" = (
+"wC" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 5
 	},
@@ -10976,7 +10976,7 @@
 	},
 /turf/simulated/floor/plating,
 /area/offworld/orbital/station/rust_core)
-"wC" = (
+"wD" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 1
@@ -10993,7 +10993,7 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/offworld/orbital/station/rust_aux_tool_storage)
-"wD" = (
+"wE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/green{
@@ -11001,17 +11001,17 @@
 	},
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/rust_aux_tool_storage)
-"wE" = (
+"wF" = (
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/rust_aux_tool_storage)
-"wF" = (
+"wG" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -30;
 	dir = 1
 	},
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/rust_aux_tool_storage)
-"wG" = (
+"wH" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
@@ -26904,9 +26904,9 @@ RS
 iT
 HX
 eF
+wE
 wD
-wC
-wv
+wx
 iT
 eW
 eW
@@ -27066,9 +27066,9 @@ RS
 iT
 VV
 DA
-wE
+wF
 oD
-wx
+wy
 iT
 eW
 eW
@@ -27227,10 +27227,10 @@ RS
 RS
 iT
 ty
+wH
 wG
-wF
 iT
-wx
+wy
 iT
 eW
 eW
@@ -27392,7 +27392,7 @@ iT
 iT
 eD
 iT
-wx
+wy
 iT
 eW
 eW
@@ -27716,7 +27716,7 @@ pH
 pI
 pE
 sz
-wy
+wz
 hC
 hC
 RE
@@ -27878,7 +27878,7 @@ pH
 pJ
 pD
 sz
-wz
+wA
 ei
 ei
 uu
@@ -28040,7 +28040,7 @@ pH
 pI
 pE
 sz
-wA
+wB
 ei
 ei
 uu
@@ -28202,7 +28202,7 @@ pH
 pJ
 pF
 sz
-wB
+wC
 fL
 MQ
 vl
@@ -28851,7 +28851,7 @@ pJ
 pQ
 eI
 Ym
-wu
+wv
 SO
 nO
 Zv
@@ -32093,7 +32093,7 @@ rj
 ug
 TU
 td
-lr
+wu
 td
 iz
 tM
