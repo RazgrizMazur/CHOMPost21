@@ -10950,9 +10950,6 @@
 /area/offworld/orbital/station/rust_core)
 "wD" = (
 /obj/machinery/door/airlock/maintenance_hatch,
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
