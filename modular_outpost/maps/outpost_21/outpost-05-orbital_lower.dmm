@@ -5381,6 +5381,11 @@
 /obj/effect/floor_decal/corner/lightgrey/border,
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/access_shaft/lower)
+"lr" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/floor_decal/industrial/outline/blue,
+/turf/simulated/floor/tiled/milspec,
+/area/offworld/orbital/station/rust_gas_storage)
 "ls" = (
 /obj/machinery/light,
 /obj/effect/floor_decal/borderfloor,
@@ -9303,6 +9308,8 @@
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
 	},
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/rust_gas_storage)
 "sY" = (
@@ -9391,10 +9398,6 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/rust_tool_storage)
-"th" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/milspec,
-/area/offworld/orbital/station/rust_gas_storage)
 "ti" = (
 /obj/machinery/camera/network/engineering_outpost{
 	c_tag = "REX - Atmospherics South";
@@ -9772,7 +9775,8 @@
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
 	},
-/obj/effect/floor_decal/industrial/outline/purple,
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/rust_gas_storage)
 "tV" = (
@@ -9785,13 +9789,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/offworld/orbital/station/rust_core)
-"tX" = (
-/obj/effect/floor_decal/corner/orange{
-	dir = 6
-	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/milspec,
-/area/offworld/orbital/station/rust_gas_storage)
 "tY" = (
 /obj/machinery/fusion_fuel_injector{
 	dir = 2;
@@ -12288,10 +12285,6 @@
 	},
 /turf/simulated/floor/tiled/milspec,
 /area/offworld/orbital/station/backup_power)
-"GD" = (
-/obj/effect/floor_decal/industrial/outline/purple,
-/turf/simulated/floor/tiled/milspec,
-/area/offworld/orbital/station/rust_gas_storage)
 "GE" = (
 /obj/machinery/vending/fitness{
 	dir = 4;
@@ -32099,9 +32092,9 @@ pH
 rj
 ug
 TU
-th
 td
-GD
+lr
+td
 iz
 tM
 rj
@@ -32261,7 +32254,7 @@ pH
 rj
 uh
 tZ
-tX
+tU
 sX
 tU
 tS
